@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="mansStils.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+      <a href="#Sākums" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Sākums</a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+     <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Attēlapstrāde">Attēlapstrāde <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#Rastrgrafika" class="w3-bar-item w3-button">Rastrgrafika</a>
+        <a href="#Vektorgrafika" class="w3-bar-item w3-button">Vektorgrafika</a>
+      </div>
+    </div>
+    <a href="#Video" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Video apstrāde</a>
+    <a href="#Teksts" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Tekstapstrāde</a>
+    <a href="#Izklāj" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Izklājlapas</a>
+    <a href="otrais.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Individuālā tēma</a>
+    <!-- <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>  -->
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#Attēli" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Attēlapstrāde</a>
+  <a href="#Video" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Video apstrāde</a>
+  <a href="#Teksts" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Tekstapstrāde</a>
+  <a href="#Izklāj" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Izklājlapas</a>
+  <a href="otrais.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Individuālā tēma</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Sākums">
+    <h2 class="w3-wide">Portfolio</h2>
+    <p class="grey-text"><i>Gustavs Gritāns</i></p>
+    <p class="w3-center">Šis ir apkopojums tēmām, ko šogad esam apguvuši datorikā.</p>
+  </div>
+    
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Rastrgrafika">
+    <h2 class="w3-wide">Rastrgrafika</h2>
+    <div class="w3-row w3-center">
+        <!-- Text Section -->
+        <div class="w3-half w3-padding-large w3-left-align">
+            <p>
+                Gada sākumā apguvām pamata prasmes attēlapstrādē. Vispirms pievērsāmies rastrgrafikai, un izmantojām populāro bezmaksas programmu "Gimp". Apguvām attēlapstrādes dažādas prasmes, kā arī veidojām GIF animāciju.
+            </p>
+        </div>
+        <div class="w3-half w3-padding-large">
+            <img src="images/animacija.gif" alt="GIF animācija" class="w3-image" style="max-width:100%; height:auto;">
+        </div>
+    </div>
+  </div>
+  
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Vektorgrafika">
+    <h2 class="w3-wide">Vektorgrafika</h2>
+    <div class="w3-row w3-center">
+        <!-- Text Section -->
+        <div class="w3-half w3-padding-large w3-left-align">
+            <p>
+                Pēc tam apskatījām vektorgrafikas efektīvu izmantošanu, veidojot logo programmā "Inkscape".
+            </p>
+        </div>
+        <div class="w3-half w3-padding-large">
+            <img src="images/wrobots.png" alt="logo izstrāade inkscape" class="w3-image" style="max-width:100%; height:auto;">
+        </div>
+    </div>
+    <div class="w3-row w3-center">
+        <!-- Text Section -->
+        <div class="w3-half w3-padding-large w3-left-align">
+            <p>
+                Nākamā lieta, ko mācījāmies bija, kā veidot 3d failus, un šīs prasmes iesaistījām projektā, kurā veidojām reklāmas objektu. Izmantojām interneta programmu "Tinkercad".
+        </div>
+        <div class="w3-half w3-padding-large">
+            <img src="images/tinkercad.png" alt="logo izstrāade inkscape" class="w3-image" style="max-width:100%; height:auto;">
+        </div>
+    </div>
+  </div>
+
+  <div class="w3-black w3-container w3-padding-64" id="Video">
+    <div class="w3-row w3-center">
+        <!-- Video Section (Left) -->
+        <div class="w3-half w3-padding-large">
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/KFWikm43lAc" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- Text Section (Right in a Box) -->
+        <div class="w3-half w3-padding-large">
+            <div class="w3-card w3-white w3-padding w3-round-large">
+                <p class="w3-left-align">
+                    Tad apguvām videoapstrādes pamatus, un veidojām montāžu, 
+                    par iepriekš minētā objekta izstrādi.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <div id="Teksts" class="w3-black w3-container w3-padding-64">
+    <h2 class="w3-wide w3-center">Tekstapstrāde</h2>
+    
+    <div class="w3-row w3-center">
+        <!-- Image Section (Left, fixed width, original height) -->
+        <div class="w3-half w3-padding-large">
+            <img src="images/word.png" alt="Paraugs, kā Word ievietot atsauces" class="w3-image w3-card" 
+                 style="width: 560px; height: auto;">
+        </div>
+
+        <!-- Text Section (Right in a Box & Centered) -->
+        <div class="w3-half w3-padding-large">
+            <div class="w3-card w3-white w3-padding w3-round-large w3-center" 
+                 style="display: flex; align-items: center; justify-content: center; height: 100%;">
+                <p>
+                    Apguvām visdažādākās tekstapstrādes prasmes Microsoft programmā Word. 
+                    Papildus pamata darbībām īpaša uzmanība tika pievērsta tam, kā ievietot atsauces, 
+                    jo tas būs īpaši noderīgi nākotnē.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+  
+<div id="Izklāj" class="w3-black w3-container w3-padding-64">
+    <h2 class="w3-wide w3-center">Izklājlapas</h2>
+    
+    <div class="w3-row w3-center">
+        <!-- Image Section (Left, fixed width, original height) -->
+        <div class="w3-half w3-padding-large">
+            <img src="images/Excel.png" alt="Excel izklājlapa" class="w3-image w3-card" 
+                 style="width: 560px; height: auto;">
+        </div>
+
+        <!-- Text Section (Right in a Box & Centered) -->
+        <div class="w3-half w3-padding-large">
+            <div class="w3-card w3-white w3-padding w3-round-large w3-center" 
+                 style="display: flex; align-items: center; justify-content: center; height: 100%;">
+                <p>
+                    Pielietojām "Excel", lai macītos veiksmīgi un efektīvi apstrādāt lielu daudzumu datu. Apskatijām dažādas lietas, kā piemēram grafiku izveidi, Pivot Table pielietošanu, formulu veidošanu utt.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+<!-- End Page Content -->
+</div>
+
+
+
+
+
+<script>
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

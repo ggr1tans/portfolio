@@ -1,0 +1,20 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 23, 2025, 9:15:26 PM
+    Author     : ggritans
+*/
+
+body {
+    background-color: grey;
+}
+.faded-opacity {
+    font-size: 24px;
+    opacity: 0.7; /* Adjust opacity here */
+}
+.grey-text {
+    color: grey !important;
+}
+
